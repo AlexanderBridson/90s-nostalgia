@@ -92,3 +92,14 @@ h1 {
 .trends {
     background-color: purple;
 }
+
+figure {
+    width: 22%;
+    display: inline-block;
+    margin: center;
+}
+figcaption {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
