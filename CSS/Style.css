@@ -109,11 +109,27 @@ figcaption {
     padding: 2em 0;
 }
 
-.icon > img {
+div.icon img {
     width: 260px;
     float: left;
     padding: 0, 0, 0, 2em
+}
 
+.featured-articles {
+    display: none;
+}
 
+.icon > h3 p {
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 8px 0;
 }
 
