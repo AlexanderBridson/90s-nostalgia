@@ -105,22 +105,22 @@ figcaption {
 }
 
 .icon {
-    display: block;
+    display: inline-block;
     padding: 2em 0;
 }
 
-div.icon img {
+.icon img {
     width: 260px;
     float: left;
-    padding: 0, 0, 0, 2em
+    margin-right: 2em;
+}
+
+div.icon ~ p {
+    clear: left;
 }
 
 .featured-articles {
     display: none;
-}
-
-.icon > h3 p {
-    display: inline-block;
 }
 
 footer {
